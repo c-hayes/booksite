@@ -1,1 +1,1 @@
-# booksite
+This is a demo site for a book preorder.  the actual pre-order functioning hand maillist has bene removed per the author's request.  Some sample text has been filled with lorem per the author's request.
