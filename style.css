@@ -495,3 +495,86 @@ footer {
       height: 100vh;
     }
   }
+/*  for large tablets */
+@media (max-width: 821px) {
+}
+/*  for small phones -tablets - large smartphones */
+@media (max-width: 768px) {
+  .landing h2{
+font-size: 15vw;  
+}
+.preorder p{
+  font-size: var(--font-norm);}
+}
+.modal__half{
+  padding: 10px 25px;
+}
+/*  midsized tablets/ phones */
+@media (max-width: 541px) {
+  
+}
+/*  smaller phones */
+@media (max-width: 480px) {
+  header ul{
+    margin-right: 5px;
+    gap: 0;
+  }
+  header ul li a{
+    padding: 8px;
+  }
+  .landing h1{
+    font-size: 30vw;  
+    }
+  .landing h2{
+    font-size: 15vw;  
+    }
+    .preorder h2{
+      padding: 0;
+    }
+    .modal__half{
+      padding: 10px 25px;
+    }
+    .modal__title{
+      font-size: var(--font-med);
+    }
+    .modal__title{
+      padding-bottom: 2rem;
+    }
+    .about p, .preorder p, .form__submit, .input, .btn__preorder{
+      font-size: var(--font-norm);
+    }
+   
+}
+/*  smaller phones */
+@media (max-width: 376px) {
+  header ul{
+    margin-right: 5px;
+    gap: 0;
+  }
+  header ul li a{
+    padding: 8px;
+  }
+  .landing h1{
+    font-size: 30vw;  
+    }
+  .landing h2{
+    font-size: 15vw;  
+    }
+    .preorder h2{
+      padding: 0 10px;
+      font-size: var(--font-norm);
+    }
+    .modal__half{
+      padding: 8px 16px;
+    }
+    .modal__title{
+      font-size: var(--font-norm);
+    }
+    .modal__title{
+      padding-bottom: 1rem;
+    }
+    .about p, .preorder p, .form__submit, .input, .btn__preorder{
+      font-size: var(--font-sm);
+    }
+   
+}
